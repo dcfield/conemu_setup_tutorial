@@ -4,7 +4,7 @@ Setup ConEmu to run multiple windows for development.
 1. Install ConEmu
 2. Go to settings (Win + Alt + p)
 3. Go to `Startup => Tasks`
-4. Click `Add/refresh default tasks => Add new tasks`
+4. Click `+`
 5. Click on new predefined task and put the following into the console on the right
 ````
 powershell -cur_console:n
