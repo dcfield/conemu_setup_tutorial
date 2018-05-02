@@ -27,7 +27,9 @@ Open a `.virc` file.
 - `vi ~/.virc`
 
 Type in
-`set nocompatible
-set backspace=2 `
+````
+set nocompatible
+set backspace=2 
+````
 
 Save and we should be good to go!
