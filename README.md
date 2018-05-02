@@ -19,3 +19,15 @@ powershell  -cur_console:s2THn
 7. Save settings
 
 Now close + open ConEmu. You should see 3 powershell windows and 1 git bash window.
+
+## Some configuration
+Cygwin comes with some strange default settings, particularly if using `vi` or `vim`.
+
+Open a `.virc` file.
+- `vi ~/.virc`
+
+Type in
+`set nocompatible
+set backspace=2 `
+
+Save and we should be good to go!
